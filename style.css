@@ -4,6 +4,7 @@
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
     --color-button-hover: #e55720;
+    --color-button-hover2: rgba(6, 255, 64, 0.716);
     --color-text: #444444;
     --color-white: #FFFFFF;
 }
@@ -159,4 +160,24 @@ ul {
 
 .button-draw:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-draw2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-white);
+    background-color: green;
+    font-size: 16px;
+    font-style: bold;
+}
+
+.button-draw2 img {
+    margin-right: 40px;
+}
+
+.button-draw2:hover {
+    color: black;
+    background-color: var(--color-button-hover2);
 }
